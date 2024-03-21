@@ -1,0 +1,111 @@
+@font-face {
+    font-family:Kanit;
+    src: url(../../media/fonts/Kanit-Medium.ttf);
+}
+
+@font-face {
+    font-family:Robot;
+    src: url(../../media/fonts/Roboto-Medium.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+#pessoal{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color:lightseagreen ;
+}
+
+#pessoal img {
+    height: 140px;
+    width: 140px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-top:40px;
+    margin-left: 70px;
+}
+
+#pessoal h1{
+    font-family: Kanit;
+    text-align: center;
+    padding: 5px;
+}
+
+#pessoal h3 {
+    font-family: Robot; 
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#pessoal h2 {
+    font-family: Kanit;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+#pessoal p {
+    font-family: Robot;
+    margin-left: 20px;
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+#pessoal a{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+#profissional {
+    display: flex;
+    flex-direction: column;
+    flex: 9;
+}
+
+#profissional h1 {
+    font-family: Kanit;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+#profissional h2 {
+    font-family: Kanit;
+    margin-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+#profissional h3{
+    font-family: Robot;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+#profissional p {
+    font-family: Robot;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+#profissional a {
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+#profissional ul {
+    font-family: Robot;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
